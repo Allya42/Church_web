@@ -1,0 +1,26 @@
+ body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      background: url('4.jpg') no-repeat center center/cover;
+      color: white;
+      min-height: 100vh;
+    }
+    nav { background: rgba(0,0,0,0.7); padding: 10px 40px; display: flex; justify-content: space-between; align-items: center; }
+    nav .logo { font-size: 22px; font-weight: bold; color: #ffdd57; }
+    nav ul { list-style: none; display: flex; gap: 25px; }
+    nav ul li a { color: white; text-decoration: none; transition: 0.3s; }
+    nav ul li a:hover { color: #ffdd57; }
+
+    .container {
+      background: rgba(0,0,0,0.6);
+      width: 80%;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 15px;
+    }
+    .ministry {
+      margin-bottom: 20px;
+    }
+    .ministry h2 {
+      color: #ffdd57;
+    }
